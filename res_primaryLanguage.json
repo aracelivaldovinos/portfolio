@@ -1,117 +1,259 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Araceli. I am highly motivated problem-solver with strong analytical and troubleshooting skills with a Bachelor degree in Biochemistry and Chemistry. I have over 4+ years of experience working in the science field. I made the leap to software development when I saw the need to improve the company I used to work for way of communicating, progress tracking, and job assigning with technology instead of pencil and paper. I then joined Epicodus Web and Mobile Developement Program in May 2021 and have been on my journey to become a Full-Stack Software Developer ever since.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Timeline"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Galactic Calculator",
+        "startDate": "2021",
+        "description": "A web application that determines a user's age based on a planet's solar years.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "/images/portfolio/galactic-calculator/p1.png",
+          "/images/portfolio/galactic-calculator/p2.png"
         ],
-        "url": "",
+        "url": "https://aracelivaldovinos.github.io/js-galactic-calc/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Currency Converter",
+        "startDate": "2021",
+        "description": "An application that allows users to convert U.S. dollars to another currency using ExchangeRate-API.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "/images/portfolio/currency-converter/p1.png",
+          "/images/portfolio/currency-converter/p2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://aracelivaldovinos.github.io/js-currency-converter/",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Volunteer Tracker",
+        "startDate": "2021",
+        "description": "Volunteer Tracker is a application that tracks projects and the volunteers. Each volunteer will belong to only one project (one project, many volunteers).The application is built on Ruby and practices Test Drive Development.",
+        "images": [
+          "/images/portfolio/volunteer-tracker/p1.png",
+          "/images/portfolio/volunteer-tracker/p2.png",
+          "/images/portfolio/volunteer-tracker/p3.png",
+          "/images/portfolio/volunteer-tracker/p4.png",
+          "/images/portfolio/volunteer-tracker/p5.png"
+        ],
+        "url": "https://github.com/aracelivaldovinos/ruby-volunteer-tracker",
+        "technologies": [
+          {
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "postgreSQL"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Mario's Coffeeshop",
+        "startDate": "2021",
+        "description": "Marios Coffeeshop website allows customers to view and rate Mario's coffee. This project practices implementing full CRUD functionality, user authentication and authorization with Ruby on Rails. User's can create and read reviews but are only able to edit and delete their own reviews. Admin is able to create, read, edit, and delete coffees. To access admin side of the application use the following credentials: email: email@testing.com password: password",
+        "images": [
+          "/images/portfolio/coffeeshop/p1.png",
+          "/images/portfolio/coffeeshop/p2.png",
+          "/images/portfolio/coffeeshop/p3.png",
+          "/images/portfolio/coffeeshop/p4.png",
+          "/images/portfolio/coffeeshop/p5.png",
+          "/images/portfolio/coffeeshop/p6.png"
+        ],
+        "url": "https://github.com/aracelivaldovinos/rails-marios-coffeeshop",
+        "technologies": [
+          {
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
+          },
+          {
+            "class": "devicon-rails-plain",
+            "name": "Rails"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "postgreSQL"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Brewery Taproom",
+        "startDate": "2021",
+        "description": "Brewery taproom is a tap room application built in React where a brewery store can track the remaining pints in a keg. Application has full CRUD functionality, admin is able to create, read, update and delete an item. To access admin side of the application use the following credentials: Email: admin@admintest.com Password: admin123",
+        "images": [
+          "/images/portfolio/taproom/p1.png",
+          "/images/portfolio/taproom/p2.png",
+          "/images/portfolio/taproom/p3.png",
+          "/images/portfolio/taproom/p4.png",
+          "/images/portfolio/taproom/p5.png"
+        ],
+        "url": "https://brewery-taproom.firebaseapp.com/",
         "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Tarot Tonight",
+        "startDate": "2021",
+        "description": "Tarot Tonight is a group built divination app that deals three cards to the user. It then makes calls to several different APIs to retrieve information related to the cards.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "/images/portfolio/tarot/p1.png"  
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/aracelivaldovinos/js-tarot-tonight",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Epicodus",
+        "title": "Student",
+        "years": "05.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Web and Mobile Development Program"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
           "JavaScript",
+          "jQuery",
+          "Ruby",
+          "React",
+          "Rails",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "SQL & NoSQL Databases",
+          "REST API",
+          "Jest",
+          "TDD",
+          "GitHub Workflow"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Dept. of Public Safety, Crime Lab",
+        "title": "Forensic Scientist",
+        "years": "09.2019 - 05.2021",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "University of Texas at San Antonio, Dept. of Chemistry",
+        "title": "Research Associate",
+        "years": "12.2016 - 01.2019",
+        "mainTech": [
+        ],
+        "technologies": [
         ]
       }
     ]

@@ -1,115 +1,259 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Hola",
+      "description": "👋 Soy Araceli. Soy un solucionador de problemas altamente motivado con fuertes habilidades analíticas y de resolución de problemas con una licenciatura en Bioquímica y Química. Tengo más de 4 años de experiencia trabajando en el campo de la ciencia. Di el salto al desarrollo de software cuando vi la necesidad de mejorar la forma de comunicación, el seguimiento del progreso y la asignación de trabajos con tecnología en lugar de lápiz y papel en la empresa en la que solía trabajar. Luego entre en la Programa de desarrollo web y móvil de Epicodus en mayo de 2021 y desde entonces he estado en mi camino para convertirme en un desarrollador de software de pila completa.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Acerca de mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Cronología"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Galactic Calculator",
+        "startDate": "2021",
+        "description": "Una aplicación web que determina la edad de un usuario en función de los años solares de un planeta.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "/images/portfolio/galactic-calculator/p1.png",
+          "/images/portfolio/galactic-calculator/p2.png"
         ],
-        "url": "",
+        "url": "https://aracelivaldovinos.github.io/js-galactic-calc/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Currency Converter",
+        "startDate": "2021",
+        "description": "Una aplicación que permite a los usuarios convertir dólares americano a otra moneda usando ExchangeRate-API.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "/images/portfolio/currency-converter/p1.png",
+          "/images/portfolio/currency-converter/p2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://aracelivaldovinos.github.io/js-currency-converter/",
+        "technologies": [
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Volunteer Tracker",
+        "startDate": "2021",
+        "description": "Volunteer Tracker es una aplicación que realiza un seguimiento de los proyectos y los voluntarios. Cada voluntario pertenecerá a un solo proyecto (un proyecto, muchos voluntarios). La aplicación está construida sobre Ruby y practica Test Driven Development.",
+        "images": [
+          "/images/portfolio/volunteer-tracker/p1.png",
+          "/images/portfolio/volunteer-tracker/p2.png",
+          "/images/portfolio/volunteer-tracker/p3.png",
+          "/images/portfolio/volunteer-tracker/p4.png",
+          "/images/portfolio/volunteer-tracker/p5.png"
+        ],
+        "url": "https://github.com/aracelivaldovinos/ruby-volunteer-tracker",
+        "technologies": [
+          {
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "postgreSQL"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Mario's Coffeeshop",
+        "startDate": "2021",
+        "description": "El sitio web Marios Coffeeshop permite a los clientes ver y calificar el café de Mario. Este proyecto practica la implementación de la funcionalidad CRUD completa, la autenticación y autorización de usuarios con Ruby on Rails. Los usuarios pueden crear y leer reseñas, pero solo pueden editar y eliminar sus propias reseñas. El administrador puede crear, leer, editar y eliminar cafés. Para acceder al lado de administración de la aplicación, use las siguientes credenciales: correo electrónico: email@testing.com contraseña: contraseña.",
+        "images": [
+          "/images/portfolio/coffeeshop/p1.png",
+          "/images/portfolio/coffeeshop/p2.png",
+          "/images/portfolio/coffeeshop/p3.png",
+          "/images/portfolio/coffeeshop/p4.png",
+          "/images/portfolio/coffeeshop/p5.png",
+          "/images/portfolio/coffeeshop/p6.png"
+        ],
+        "url": "https://github.com/aracelivaldovinos/rails-marios-coffeeshop",
+        "technologies": [
+          {
+            "class": "devicon-ruby-plain",
+            "name": "Ruby"
+          },
+          {
+            "class": "devicon-rails-plain",
+            "name": "Rails"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "postgreSQL"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },
+      {
+        "title": "Brewery Taproom",
+        "startDate": "2021",
+        "description": "Brewery taproom es una aplicación de taberna integrada en React donde una tienda de cervecería puede rastrear las pintas restantes en un barril. La aplicación tiene una funcionalidad CRUD completa, el administrador puede crear, leer, actualizar y eliminar un elemento. Para acceder al lado de administración de la aplicación, use las siguientes credenciales: Correo electrónico: admin@admintest.com Contraseña: admin123.",
+        "images": [
+          "/images/portfolio/taproom/p1.png",
+          "/images/portfolio/taproom/p2.png",
+          "/images/portfolio/taproom/p3.png",
+          "/images/portfolio/taproom/p4.png",
+          "/images/portfolio/taproom/p5.png"
+        ],
+        "url": "https://brewery-taproom.firebaseapp.com/",
         "technologies": [
           {
             "class": "devicon-react-original",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Tarot Tonight",
+        "startDate": "2021",
+        "description": "Tarot Tonight es una aplicación de adivinación creada en grupo que reparte tres cartas al usuario. La aplicacion hace llamadas a varias API para recuperar información relacionada con las tarjetas.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "/images/portfolio/tarot/p1.png"  
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/aracelivaldovinos/js-tarot-tonight",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "Epicodus",
+        "title": "Estudiante",
+        "years": "05.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Programa de Desarrollo Web y Móvil"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
           "JavaScript",
+          "jQuery",
+          "Ruby",
+          "React",
+          "Rails",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "SQL & NoSQL Databases",
+          "REST API",
+          "Jest",
+          "TDD",
+          "GitHub Workflow"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "Dept. of Public Safety, Crime Lab",
+        "title": "Científica forense",
+        "years": "09.2019 - 05.2021",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "University of Texas at San Antonio, Dept. of Chemistry",
+        "title": "Investigador asociado",
+        "years": "12.2016 - 01.2019",
+        "mainTech": [
+        ],
+        "technologies": [
         ]
       }
     ]
